@@ -21,3 +21,7 @@ if (condição) {
 || = O operador "||" retorna verdadeiro se pelo menos uma das expressões envolvidas for verdadeira. Se ambas as expressões forem falsas, o resultado será falso.
 
 && = O operador "&&" retorna verdadeiro se todas as expressões envolvidas forem verdadeiras. Se pelo menos uma das expressões for falsa, o resultado será falso.
+
+Aula 06 - 
+Do + While, fazer algo até atingir tal condicional
+
