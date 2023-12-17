@@ -38,14 +38,17 @@ const lista = [
 //     },
 // }
 
-const pessoas = lista.reduce((acc, objeto) => {
-    return {
-        ...acc,
-        [objeto.nome]: {
-            idade: objeto.idade,
+const funcaoReducer = (acc, objeto) => {
+    const pessoas = lista.reduce((acc, objeto) => {
+        return {
+            ...acc,
+            [objeto.nome]: {
+                idade: objeto.idade,
+            }
         }
-    }
-}, {});
+    }, {});
+
+
 
 console.log(pessoas);
 console.log(pessoas.Jora.idade);
