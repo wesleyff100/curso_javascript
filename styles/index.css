@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+
+}
+
+.background {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.titulo{
+    margin: 100px auto 20px auto;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #00aabd;
+    width: 600px;
+    font-size: 56px;
+    text-align: center;
+    
+}
+.amarelo{
+    color: #eeff00;
+}
